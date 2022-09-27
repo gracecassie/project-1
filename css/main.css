@@ -1,0 +1,31 @@
+/* Place CSS styles here */
+
+h2 {
+    color: purple;
+}
+
+.uglybutton {
+    color: orange;
+}
+
+#container {
+    color: blueviolet;
+}
+
+.button {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: brown;
+    border-color: brown;
+  
+}
+
+.button:focus {
+    border: 1px solid red;
+
+}
