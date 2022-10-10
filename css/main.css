@@ -14,6 +14,13 @@ img {
   #container {
     color: purple;
   }
+ 
+  header-container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   
   .container {
     width: 900px;
@@ -87,3 +94,4 @@ img {
     max-width: 600px;
     margin: 0 auto;
   }
+
