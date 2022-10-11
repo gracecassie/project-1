@@ -146,7 +146,27 @@ img {
     padding: 40px;
   }
 
-  .about-body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_7ZmIIFFg_yiaIr8ktUzpX2kk-ZP4k9Akw&usqp=CAU);
+
+  .about-us-title {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
   }
   
+  .menu-title {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .about-featured-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
