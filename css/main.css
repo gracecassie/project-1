@@ -104,6 +104,13 @@ img {
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between;
+    background-color: #f3a6e2;
+    margin: 14px;
+    border-color: #f3a6e2;
+    padding: 4px;
+  }
+
+  .home-picture {
   }
 
   .titles {
