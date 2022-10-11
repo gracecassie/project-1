@@ -117,3 +117,36 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
   }
+
+  .about-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .about-page {
+    background-color: #f8e6f4;
+    margin: 40px;
+    padding: 40px;
+  }
+
+  .links {
+    background-color: #f7d3ef;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    margin: 40px;
+    padding: 40px;
+  }
+
+  .about-body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_7ZmIIFFg_yiaIr8ktUzpX2kk-ZP4k9Akw&usqp=CAU);
+  }
+  
