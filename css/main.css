@@ -218,17 +218,27 @@ img {
     background-color: #ffebf3;
     margin: 20px;
     display: flex;
-    align-items: center;
+    justify-items: stretch;
   }
 
   .frozen-title {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    font-size: 20px;
   }
 
   .cocktails-title {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    font-size: 20px;
+  }
+  
+  .menu-featured-items {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
   }
 
   .menu-featured-item {
@@ -239,8 +249,6 @@ img {
     margin-bottom: 100px;
     border-radius: 8px;
     padding: 20px;
-    padding-top: 100px;
-    padding-bottom: 50px;
     align-self: stretch;
     width: 40%;
   }
@@ -250,18 +258,37 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #f8ceef;
-    padding: 10px;
+    background-color: #f5c6eb;
+    margin: 10px;
+    border-color: #f3a6e2;
+    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-self: stretch;
+    width: 60%
   }
 
   .frozen-picture {
-    width: 400px;
-    height:300px;
-    margin:2px;
+    text-align: center;
   }
 
   .frozen-pom {
     width: 200px;
     height: 300px;
-    margin: 2px;
+    margin: 10px;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .description {
+    margin-top: 0;
+  }
+
+  .cocktails {
+    background-color: #ffebf3;
+    margin: 20px;
+    display: flex;
+    align-items: center;
   }
