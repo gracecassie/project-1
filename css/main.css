@@ -19,14 +19,13 @@ img {
     background-color: rgb(253, 227, 248);
     text-align: center;
     flex-direction: column;
-    align-items: flex-start;
+    align-self: flex-start;
     margin: 10px;
     margin-bottom: 100px;
     border-radius: 8px;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
-    align-self: stretch;
     width: 40%;
   }
 
@@ -161,10 +160,13 @@ img {
   }
   
   .menu-title {
-    font-size: 50px;
+    display: block;
+    justify-content: center;
+    font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(7, 7, 7);
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
     background-color: #f7d5ef;
     border-radius: 5px;
@@ -222,17 +224,15 @@ img {
   }
 
   .frozen-title {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: #0f0f0f;
     font-size: 20px;
+    margin-left: 30px;
   }
 
   .cocktails-title {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: #0f0f0f;
     font-size: 20px;
+    margin-left: 30px;
   }
   
   .menu-featured-items {
@@ -261,11 +261,11 @@ img {
     background-color: #f5c6eb;
     margin: 10px;
     border-color: #f3a6e2;
-    padding: 60px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-self: stretch;
-    width: 60%
+    width: 50%
   }
 
   .frozen-picture {
@@ -291,4 +291,19 @@ img {
     margin: 20px;
     display: flex;
     align-items: center;
+  }
+
+  .cocktail-photos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: #f5c6eb;
+    margin: 10px;
+    border-color: #f3a6e2;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-self: stretch;
+    width: 50%
   }
